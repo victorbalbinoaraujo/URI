@@ -1,0 +1,14 @@
+a = float(input())
+b = float(input())
+c = float(input())
+pi = 3.14159
+triangulo_retangulo = a * c / 2
+circulo = pi * pow(c, 2)
+trapezio = (a + b) * c / 2
+quadrado = b ** 2
+retangulo = a * b
+print(f'TRIANGULO = {triangulo_retangulo}')
+print(f'CIRCULO = {circulo}')
+print(f'TRAPEZIO = {trapezio}')
+print(f'QUADRADO = {quadrado}')
+print(f'RETANGULO = {retangulo}')
