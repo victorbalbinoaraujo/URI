@@ -11,3 +11,4 @@ while x != 0:
     print(soma)
     y = 0
     soma = 0
+    
