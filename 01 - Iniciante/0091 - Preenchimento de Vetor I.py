@@ -1,6 +1,9 @@
 valor = int(input())
-vetor = [x * 2 for x in range(valor, 10)]
-print(f"N[0] = {valor}")
-for i, v in enumerate(vetor):
-    i += 1
-    print(f"N[{i}] = {v}")
+n = []
+n.append(valor)
+for _ in range(10):
+    valor *= 2
+    n.append(valor)
+
+for i, item in enumerate(n):
+    print(f"N[{i}] = {item}")
