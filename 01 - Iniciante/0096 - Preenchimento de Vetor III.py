@@ -1,4 +1,4 @@
-x = int(input())
+x = float(input())
 n = []
 n.append(x)
 
