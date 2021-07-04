@@ -4,7 +4,7 @@ matriz = []
 tam = 12
 soma = 0
 
-o = str(input()).upper()
+t = str(input()).upper()
 
 for i in range(tam):
     vaux = []
@@ -24,7 +24,7 @@ for i in range(1, 11):
             soma += matriz[i][j]
             j -= 1
 
-if o == 'S':
+if t == 'S':
     print(soma) 
-elif o == 'M':
+elif t == 'M':
     print(soma / tam)
