@@ -24,7 +24,7 @@ for i in range(1, 11):
             soma += matriz[i][j]
             j -= 1
 
-if t == 'S':
-    print(soma) 
-elif t == 'M':
+if t == "S":
+    print(soma)
+elif t == "M":
     print(soma / tam)
